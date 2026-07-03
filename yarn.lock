@@ -1045,10 +1045,18 @@
   resolved "https://registry.yarnpkg.com/@expo/sudo-prompt/-/sudo-prompt-9.3.2.tgz#0fd2813402a42988e49145cab220e25bea74b308"
   integrity sha512-HHQigo3rQWKMDzYDLkubN5WQOYXJJE2eNqIQC2axC2iO3mHdwnIR7FgZVvHWtBwAdzBgAP0ECp8KqS8TiMKvgw==
 
-"@expo/ui@^56.0.17", "@expo/ui@~56.0.17":
+"@expo/ui@^56.0.17":
   version "56.0.17"
   resolved "https://registry.yarnpkg.com/@expo/ui/-/ui-56.0.17.tgz#79802232d1e97be6a46a96a3986431653ab42cb4"
   integrity sha512-Jos9oGzurMDngrSWJesX3LSykPRvkUdANxtq2sPKBc6bAjadtZJCkthAYMaE3P9L5xrzbNRFo+2O76cRP0iYPw==
+  dependencies:
+    sf-symbols-typescript "^2.1.0"
+    vaul "^1.1.2"
+
+"@expo/ui@~57.0.3":
+  version "57.0.3"
+  resolved "https://registry.yarnpkg.com/@expo/ui/-/ui-57.0.3.tgz#4e4ea41aec6730828cdab18e29b89a7ef38fdedd"
+  integrity sha512-iRzJYvKBDMVlVtm1POe0DM1JJS6KtbrZLnWTus0BHGH32hfQfjxKcNibvKVbHe6Ryjw8ayU1OfyFfL61bJKpFA==
   dependencies:
     sf-symbols-typescript "^2.1.0"
     vaul "^1.1.2"
