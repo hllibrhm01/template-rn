@@ -1,0 +1,528 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "requestFailed": "İstek başarısız oldu",
+    "networkError": "Ağ hatası. Lütfen bağlantınızı kontrol edin.",
+    "requestTimedOut": "İstek zaman aşımına uğradı. Lütfen tekrar deneyin.",
+    "retry": "Yeniden Dene",
+    "close": "Kapat",
+    "offline": "İnternet bağlantısı yok",
+    "online": "İnternet bağlantısı sağlandı",
+    "languages": {
+      "de": "Almanca",
+      "en": "İngilizce",
+      "tr": "Türkçe"
+    },
+    "status": {
+      "verified": "Doğrulandı",
+      "unverified": "Doğrulanmadı"
+    },
+    "cancel": "İptal",
+    "delete": "Sil",
+    "error": "Hata"
+  },
+  "errorBoundary": {
+    "title": "Bir şeyler ters gitti",
+    "description": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "auth": {
+    "loading": "Yükleniyor...",
+    "callback": {
+      "unreadableSession": "Uygulamaya dönen oturum bilgisi okunamadı. Lütfen yeniden giriş yapın.",
+      "invalidSessionData": "Oturum verisi eksik veya bozuk görünüyor. Lütfen tekrar deneyin.",
+      "noPendingSession": "Tamamlanacak bir giriş oturumu bulunamadı. Lütfen profilden tekrar deneyin.",
+      "failedTitle": "Giriş Tamamlanamadı",
+      "backToProfile": "Profile Dön",
+      "signingIn": "Giriş Yapılıyor...",
+      "pleaseWait": "Lütfen bekleyin"
+    }
+  },
+  "tabs": {
+    "settings": "Ayarlar",
+    "signIn": "Giriş Yap",
+    "home": "Ana Sayfa"
+  },
+  "settings": {
+    "title": "Hesap Ayarları",
+    "noUser": "Kullanıcı bilgisi bulunamadı.",
+    "items": {
+      "security": "Güvenlik",
+      "appSettings": "Uygulama Ayarları"
+    },
+    "sections": {
+      "personal": "KİŞİSEL BİLGİLER",
+      "security": "GÜVENLİK",
+      "appSettings": "UYGULAMA AYARLARI",
+      "account": "HESAP"
+    },
+    "editProfile": "Profili Düzenle",
+    "phoneNumber": "Telefon Numarası",
+    "emailAddress": "E-posta Adresi",
+    "changePassword": "Şifre Değiştir",
+    "activeSessions": "Aktif Oturumlar",
+    "language": "Dil",
+    "textSize": "Yazı Boyutu",
+    "notificationPreferences": "Bildirim Tercihleri",
+    "freezeAccount": "Hesabı Dondur",
+    "deleteAccount": "Hesabı Kapat"
+  },
+  "textSize": {
+    "title": "Yazı Boyutu",
+    "description": "Uygulamadaki başlık ve metin boyutlarını hemen değiştirin. Seçiminiz bu cihazda saklanır.",
+    "previewLabel": "Canlı Önizleme",
+    "previewTitle": "Başlıklar ve gövde metinleri birlikte ölçeklenir",
+    "previewBody": "Bu önizleme, seçtiğiniz boyutun ekran genelindeki başlıkları, açıklamaları ve kısa bilgileri nasıl etkileyeceğini gösterir.",
+    "previewCaption": "Yeni boyut hemen tüm uygulamaya uygulanır.",
+    "options": {
+      "small": "Küçük",
+      "medium": "Orta",
+      "large": "Büyük",
+      "extraLarge": "Çok Büyük"
+    },
+    "descriptions": {
+      "small": "Daha kompakt bir görünüm sağlar.",
+      "medium": "Varsayılan ve dengeli görünüm.",
+      "large": "Okunabilirliği artırır.",
+      "extraLarge": "Maksimum görünürlük için daha büyük metinler kullanır."
+    }
+  },
+  "language": {
+    "title": "Dil",
+    "noUser": "Kullanıcı bilgisi bulunamadı.",
+    "description": "Uygulama dili ve bildirim dili için bir dil seçin.",
+    "save": "Kaydet",
+    "saved": "Dil tercihi kaydedildi",
+    "saveFailed": "Dil değiştirilemedi",
+    "retryLater": "Lütfen tekrar deneyin."
+  },
+  "notifications": {
+    "title": "Bildirimler",
+    "emptyTitle": "Henüz bildiriminiz yok",
+    "emptyMessage": "Yeni ilanlar, mesajlar ve fırsatlar hakkında bildirimler burada görünecek."
+  },
+  "legal": {
+    "title": "Yasal",
+    "version": "Versiyon {{version}}",
+    "empty": "Yasal belge bulunamadı."
+  },
+  "deleteAccount": {
+    "title": "Hesap iptali",
+    "noUser": "Kullanıcı bilgisi bulunamadı.",
+    "confirmTitle": "Hesabı kapat",
+    "confirmMessage": "Hesabınız kapatılacak ve oturumunuz sonlandırılacak. Bu işlemden sonra tekrar giriş yapamazsınız.",
+    "cancel": "Vazgeç",
+    "confirmAction": "Hesabı kapat",
+    "deleted": "Hesap kapatıldı",
+    "deleteFailed": "Hesap kapatılamadı",
+    "retryLater": "Lütfen daha sonra tekrar deneyin.",
+    "warningTitle": "Bu işlem geri alınamaz",
+    "warningText": "Hesabınız soft delete ile kapatılacak, tüm oturumlarınız sonlandırılacak ve korumalı ekranlara erişiminiz kesilecek.",
+    "accountTitle": "Kapatılacak hesap",
+    "emailTitle": "E-posta doğrulaması",
+    "emailDescription": "Devam etmek için hesap e-posta adresinizi tekrar yazın.",
+    "button": "Hesabımı kapat"
+  },
+  "reactivateAccount": {
+    "title": "Hesabı yeniden aç",
+    "heroTitle": "Hesabınızı yeniden etkinleştirin",
+    "description": "Hesabınızı daha önce dondurduysanız, e-posta adresiniz ve şifrenizle tekrar etkinleştirebilirsiniz.",
+    "frozenDescription": "Giriş sırasında hesabınızın dondurulduğunu fark ettik. Devam etmek için e-posta adresinizi ve şifrenizi doğrulayın.",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "ornek@example.com",
+    "passwordLabel": "Şifre",
+    "passwordPlaceholder": "Şifreniz",
+    "button": "Hesabımı yeniden aç",
+    "successTitle": "Hesap yeniden etkinleştirildi",
+    "successMessage": "Profilinize tekrar erişebilirsiniz.",
+    "errorTitle": "Hesap yeniden açılamadı",
+    "errorMessage": "Bilgilerinizi kontrol edip tekrar deneyin."
+  },
+  "about": {
+    "title": "Hakkında",
+    "tagline": "Yapay zeka ile araç analizi",
+    "versionLabel": "Sürüm",
+    "buildLabel": "Build",
+    "platformLabel": "Platform",
+    "checkUpdates": "Güncellemeleri Kontrol Et",
+    "updateAvailableTitle": "Güncelleme mevcut",
+    "updateAvailableMessage": "Yeni sürüm: {{version}}",
+    "upToDateTitle": "Uygulamanız güncel",
+    "versionValue": "Sürüm {{version}}",
+    "links": {
+      "terms": "Kullanım Koşulları",
+      "privacy": "Gizlilik Politikası",
+      "openSource": "Açık Kaynak Lisansları"
+    },
+    "copyright": "© {{year}} TemplateRN. Tüm hakları saklıdır."
+  },
+  "feedbackScreen": {
+    "title": "Şikayet ve Öneri",
+    "heading": "Geri bildirim türünü seçin",
+    "description": "Ekibimizle paylaşmak istediğiniz konuyu seçin ve ayrıntıları ekleyin.",
+    "historyButton": "Gönderilerim",
+    "types": {
+      "complaint": {
+        "title": "Şikayet",
+        "description": "Yaşadığınız sorunları ve memnuniyetsizlikleri iletin."
+      },
+      "suggestion": {
+        "title": "Öneri",
+        "description": "Ürünü veya deneyimi geliştirecek fikirlerinizi paylaşın."
+      }
+    },
+    "subjectLabel": "Konu",
+    "subjectPlaceholder": "Kısa bir başlık yazın",
+    "subjectHelper": "En az 4 karakter",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Lütfen ayrıntıları paylaşın",
+    "messageHelper": "En az 10 karakter",
+    "submit": "Gönder",
+    "successComplaintTitle": "Şikayet gönderildi",
+    "successSuggestionTitle": "Öneri gönderildi",
+    "successMessage": "Ekibimiz geri bildiriminizi inceleyecek.",
+    "submitErrorTitle": "Geri bildirim gönderilemedi",
+    "submitErrorMessage": "Lütfen daha sonra tekrar deneyin."
+  },
+  "feedbackHistory": {
+    "infoText": "Gönderdiğiniz şikayet ve önerilerin durumlarını buradan takip edebilirsiniz.",
+    "createButton": "Yeni Geri Bildirim",
+    "emptyTitle": "Henüz geri bildirim yok",
+    "emptyText": "İlk şikayet veya önerinizi göndererek ekiple doğrudan iletişime geçebilirsiniz.",
+    "emptyAction": "Geri Bildirim Oluştur",
+    "latestRecords": "En son {{count}} kayıt gösteriliyor.",
+    "loadErrorTitle": "Geri bildirimler yüklenemedi",
+    "loadErrorFallback": "Lütfen sayfayı yenileyip tekrar deneyin.",
+    "reviewNote": "İnceleme notu",
+    "lastUpdated": "Son durum tarihi",
+    "status": {
+      "new": "Yeni",
+      "in_review": "İnceleniyor",
+      "resolved": "Çözüldü",
+      "closed": "Kapatıldı"
+    }
+  },
+  "permissionsScreen": {
+    "status": {
+      "active": "Aktif",
+      "inactive": "Kapalı"
+    },
+    "actions": {
+      "manage": "Ayarları Yönet",
+      "allow": "İzin Ver"
+    },
+    "cards": {
+      "notifications": {
+        "label": "Bildirimler",
+        "description": "Rezervasyon güncellemeleri ve önemli bildirimleri almak için kullanılır"
+      },
+      "camera": {
+        "label": "Kamera",
+        "description": "Araç fotoğrafı çekebilmek için kullanılır"
+      },
+      "media": {
+        "label": "Galeri ve Medya",
+        "description": "Araç fotoğrafı ve videolarını galeriden seçebilmek için kullanılır"
+      }
+    },
+    "footer": {
+      "description": "Tüm izinleri cihaz ayarlarından da yönetebilirsiniz.",
+      "openSettings": "Ayarları Aç"
+    }
+  },
+  "changePasswordScreen": {
+    "title": "Şifrenizi değiştirin",
+    "subtitle": "Güvenliğiniz için mevcut şifrenizi girerek yeni bir şifre belirleyin.",
+    "oauthTitle": "Şifre değiştirme kullanılamaz",
+    "oauthMessage": "Hesabınız {{provider}} ile oluşturulduğu için şifre değiştirme özelliği kullanılamaz. Hesap güvenliğinizi sağlayıcınız üzerinden yönetebilirsiniz.",
+    "strength": {
+      "veryWeak": "Çok zayıf",
+      "weak": "Zayıf",
+      "medium": "Orta",
+      "strong": "Güçlü",
+      "veryStrong": "Çok güçlü"
+    },
+    "requirements": {
+      "minLength": "En az 8 karakter",
+      "uppercase": "Büyük harf (A-Z)",
+      "lowercase": "Küçük harf (a-z)",
+      "number": "Rakam (0-9)",
+      "special": "Özel karakter (!@#$...)"
+    },
+    "fields": {
+      "current": {
+        "label": "Mevcut şifre",
+        "placeholder": "Mevcut şifreniz"
+      },
+      "next": {
+        "label": "Yeni şifre",
+        "placeholder": "Yeni şifreniz"
+      },
+      "confirm": {
+        "label": "Yeni şifre tekrar",
+        "placeholder": "Yeni şifrenizi tekrar girin"
+      }
+    },
+    "passwordMismatch": "Şifreler eşleşmiyor",
+    "submit": "Şifreyi Değiştir",
+    "successTitle": "Şifre değiştirildi",
+    "successMessage": "Yeni şifreniz başarıyla kaydedildi.",
+    "errorTitle": "Şifre değiştirilemedi",
+    "errorMessage": "Lütfen daha sonra tekrar deneyin."
+  },
+  "freezeAccount": {
+    "confirmTitle": "Hesabı dondur",
+    "confirmMessage": "Hesabınız geçici olarak dondurulacak ve tüm oturumlarınız sonlandırılacak. Daha sonra giriş yaptığınızda hesabınızı e-posta ve şifrenizle yeniden etkinleştirebilirsiniz.",
+    "cancel": "Vazgeç",
+    "confirmAction": "Hesabı dondur",
+    "successTitle": "Hesap donduruldu",
+    "successMessage": "Tekrar giriş yaptığınızda hesabınızı yeniden etkinleştirebilirsiniz.",
+    "errorTitle": "Hesap dondurulamadı",
+    "errorMessage": "Lütfen daha sonra tekrar deneyin.",
+    "warningTitle": "Bu işlem geri alınabilir",
+    "warningText": "Hesabınız dondurulduğunda mevcut oturumlarınız kapanır ve korumalı alanlara erişemezsiniz. Bir sonraki girişinizde hesabınızı yeniden etkinleştirebilirsiniz.",
+    "accountTitle": "Dondurulacak hesap",
+    "button": "Hesabımı dondur"
+  },
+  "activeSessionsScreen": {
+    "unknownPlatform": "Bilinmiyor",
+    "currentDevice": "Bu cihaz",
+    "lastActive": "Son aktiflik",
+    "revokeButton": "Oturumu kapat",
+    "confirmTitle": "Oturumu kapat",
+    "confirmMessage": "Bu cihazdaki oturum sonlandırılacak. Devam etmek istiyor musunuz?",
+    "cancel": "Vazgeç",
+    "confirmAction": "Oturumu Kapat",
+    "revokeSuccess": "Oturum kapatıldı",
+    "revokeErrorTitle": "Oturum kapatılamadı",
+    "revokeErrorMessage": "Lütfen tekrar deneyin.",
+    "noOtherSessions": "Başka aktif oturum yok",
+    "revokeAllTitle": "Tüm oturumları kapat",
+    "revokeAllMessage": "Bu cihaz hariç {{count}} oturum sonlandırılacak. Devam etmek istiyor musunuz?",
+    "revokeAllAction": "Tümünü Kapat",
+    "revokeAllSuccess": "Tüm oturumlar kapatıldı",
+    "revokeAllErrorTitle": "Bazı oturumlar kapatılamadı",
+    "revokeAllErrorMessage": "Lütfen sayfayı yenileyip tekrar deneyin.",
+    "infoText": "Hesabınızda aktif olan tüm oturumları buradan görüntüleyebilir ve yönetebilirsiniz.",
+    "emptyTitle": "Aktif oturum bulunamadı",
+    "revokeOtherSessions": "Diğer Tüm Oturumları Kapat ({{count}})",
+    "loadErrorTitle": "Oturumlar yüklenemedi",
+    "loadErrorFallback": "Lütfen sayfayı yenileyip tekrar deneyin."
+  },
+  "emailAddressScreen": {
+    "title": "Kayıtlı e-posta",
+    "subtitle": "E-posta değişikliği yaptığınızda doğrulama durumunuz sıfırlanır.",
+    "label": "E-posta adresi",
+    "placeholder": "ornek@mail.com",
+    "statusLabel": "Durum",
+    "saveButton": "E-postayı kaydet",
+    "verificationButton": "Doğrulama e-postası gönder",
+    "updateSuccessTitle": "E-posta güncellendi",
+    "updateSuccessMessage": "Yeni adresinizi doğrulamanız gerekiyor.",
+    "updateErrorTitle": "E-posta güncellenemedi",
+    "verificationSuccessTitle": "Doğrulama e-postası gönderildi",
+    "verificationErrorTitle": "E-posta gönderilemedi",
+    "errorMessage": "Lütfen daha sonra tekrar deneyin."
+  },
+  "editProfileScreen": {
+    "title": "Kişisel Bilgilerim",
+    "saveHeader": "Kaydet",
+    "avatarHint": "Profil fotoğrafınızı değiştirmek için dokunun",
+    "personalInfoTitle": "Kişisel Bilgiler",
+    "saveButton": "Değişiklikleri Kaydet",
+    "cancel": "İptal",
+    "saveSuccessTitle": "Profil güncellendi",
+    "saveErrorTitle": "Güncelleme başarısız",
+    "saveErrorMessage": "Profil güncellenirken bir hata oluştu.",
+    "photoUpdated": "Fotoğraf güncellendi",
+    "photoUploadFailedTitle": "Fotoğraf yüklenemedi",
+    "photoUploadFailedMessage": "Lütfen tekrar deneyin.",
+    "photoDeleted": "Fotoğraf silindi",
+    "photoDeleteFailedTitle": "Fotoğraf silinemedi",
+    "photoDeleteFailedMessage": "Lütfen tekrar deneyin.",
+    "photoOptions": {
+      "title": "Profil Fotoğrafı",
+      "message": "Bir seçenek belirleyin",
+      "takePhoto": "Fotoğraf Çek",
+      "chooseFromGallery": "Galeriden Seç",
+      "deletePhoto": "Fotoğrafı Sil",
+      "cancel": "İptal"
+    },
+    "fields": {
+      "name": {
+        "label": "Ad *",
+        "placeholder": "Adınızı girin",
+        "required": "Ad alanı zorunludur"
+      },
+      "surname": {
+        "label": "Soyad *",
+        "placeholder": "Soyadınızı girin",
+        "required": "Soyad alanı zorunludur"
+      },
+      "email": {
+        "label": "E-posta",
+        "helper": "E-posta adresinizi değiştirmek için destek ile iletişime geçin"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "Telefon numaranız"
+      }
+    },
+    "alerts": {
+      "permissionRequiredTitle": "İzin Gerekli",
+      "cameraPermissionMessage": "Fotoğraf çekebilmek için kamera erişimi gerekiyor.",
+      "galleryPermissionMessage": "Fotoğraf seçebilmek için galeri erişimi gerekiyor."
+    }
+  },
+  "phoneNumberScreen": {
+    "screenTitle": "Cep telefonu numaram",
+    "title": "Telefon numaranız",
+    "subtitle": "Numaranızı güncelledikten sonra SMS doğrulama kodu gönderin.",
+    "label": "Telefon",
+    "placeholder": "05XX XXX XX XX",
+    "statusLabel": "Durum",
+    "saveButton": "Numarayı kaydet",
+    "sendCodeButton": "SMS kodu gönder",
+    "verificationTitle": "Doğrulama kodu",
+    "codePlaceholder": "6 haneli kod",
+    "verifyButton": "Kodu doğrula",
+    "back": "Geri dön",
+    "notifications": {
+      "updatedTitle": "Telefon numarası güncellendi",
+      "updatedMessage": "Yeni numaranızı doğrulamanız gerekiyor.",
+      "updateFailedTitle": "Telefon güncellenemedi",
+      "codeSentTitle": "Doğrulama kodu gönderildi",
+      "codeFailedTitle": "Kod gönderilemedi",
+      "verifiedTitle": "Telefon doğrulandı",
+      "verifyFailedTitle": "Kod doğrulanamadı",
+      "errorMessage": "Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "notificationPreferencesScreen": {
+    "sections": {
+      "push": "PUSH BİLDİRİMLERİ",
+      "categories": "BİLDİRİM KATEGORİLERİ"
+    },
+    "master": {
+      "title": "Bildirimler",
+      "enabled": "Bildirimler açık",
+      "disabled": "Bildirimler kapalı — ayarlardan açabilirsiniz"
+    },
+    "actions": {
+      "enable": "Bildirimleri Aç",
+      "manageSystem": "Sistem Ayarlarını Yönet"
+    },
+    "categories": {
+      "messages": {
+        "label": "Mesajlar",
+        "description": "Sohbet mesajları ve yanıtlar"
+      },
+      "promotions": {
+        "label": "Kampanyalar",
+        "description": "Fırsatlar, indirimler ve yenilikler"
+      },
+      "system": {
+        "label": "Sistem Bildirimleri",
+        "description": "Hesap güvenliği ve sistem güncellemeleri"
+      }
+    },
+    "disabledNote": "Kategori tercihlerini yönetebilmek için bildirimleri açın.",
+    "notifications": {
+      "updateFailedTitle": "Bildirim tercihleri güncellenemedi",
+      "updateFailedMessage": "Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "profileScreen": {
+    "guestTitle": "Hesabınıza giriş yapın",
+    "guestDescription": "Profilinizi yönetin, garajınıza erişin ve tüm özellikleri kullanın.",
+    "register": "Kayıt Ol",
+    "termsPrefix": "Devam ederek",
+    "termsMiddle": "ve",
+    "termsSuffix": "'ni kabul etmiş olursunuz.",
+    "emailChip": "E-posta",
+    "phoneChip": "Telefon",
+    "permissions": "İzinler",
+    "support": "Yardım & Destek",
+    "feedback": "Şikayet ve Öneri",
+    "feedbackHistory": "Geri Bildirimlerim",
+    "logout": "Çıkış Yap",
+    "logoutConfirm": "Çıkış yapmak istediğinize emin misiniz?",
+    "cancel": "İptal",
+    "loginStartFailed": "Giriş başlatılamadı",
+    "registerStartFailed": "Kayıt başlatılamadı",
+    "authFailedTitle": "Giriş tamamlanamadı",
+    "sections": {
+      "account": "HESABIM",
+      "support": "DESTEK"
+    },
+    "errors": {
+      "frontendUrlMissing": "Frontend URL yapılandırması eksik.",
+      "additionalActionRequired": "Hesabınız için ek bir işlem gerekiyor. Lütfen tekrar deneyin.",
+      "browserSessionFailed": "Tarayıcı oturumu başlatılırken bir sorun oluştu."
+    }
+  },
+  "supportScreen": {
+    "sections": {
+      "faq": "SIK SORULAN SORULAR",
+      "contact": "İLETİŞİM",
+      "feedback": "ŞİKAYET VE ÖNERİ",
+      "bugReport": "HATA BİLDİRİMİ"
+    },
+    "faqItems": [
+      {
+        "question": "Araç analizi nasıl çalışır?",
+        "answer": "Aracınızın fotoğraflarını çekip yükleyin, yapay zeka sistemi otomatik olarak araç detaylarını analiz edecek ve sonuçları size sunacaktır."
+      },
+      {
+        "question": "Kredi nasıl satın alırım?",
+        "answer": "Profil sayfanızdan kredi paketleri bölümüne giderek uygun paketi seçip satın alabilirsiniz. Satın alınan krediler hesabınıza anında yüklenir."
+      },
+      {
+        "question": "Analiz sonuçları ne kadar güvenilir?",
+        "answer": "Yapay zeka analiz sonuçları referans amaçlı sunulmaktadır. Profesyonel bir değerlendirme yerine geçmez, ancak hızlı bir genel bakış sağlar."
+      },
+      {
+        "question": "Hesabımı nasıl silebilirim?",
+        "answer": "Profil > Hesap Ayarları > Hesap İptali bölümünden hesabınızı kapatabilirsiniz. Bu işlem geri alınamaz."
+      },
+      {
+        "question": "Verilerim güvende mi?",
+        "answer": "Evet, tüm verileriniz şifreli olarak saklanır. Gizlilik politikamızı Profil sayfasındaki Gizlilik Politikası bölümünden okuyabilirsiniz."
+      }
+    ],
+    "contact": {
+      "emailTitle": "E-posta ile İletişim"
+    },
+    "feedbackCard": {
+      "title": "Şikayet veya öneri gönder",
+      "description": "Deneyiminizi geliştirmemize yardımcı olacak görüşlerinizi doğrudan uygulama içinden iletin.",
+      "button": "Forma Git"
+    },
+    "bugReportCard": {
+      "title": "Hata Bildir",
+      "description": "Bir sorunla karşılaştıysanız bize bildirin. Cihaz bilgileri otomatik olarak eklenir.",
+      "button": "E-posta Gönder"
+    },
+    "bugReportSubject": "TemplateRN - Hata Bildirimi",
+    "subjectLabel": "Konu",
+    "deviceInfo": {
+      "heading": "Cihaz Bilgileri",
+      "device": "Cihaz",
+      "os": "OS",
+      "app": "Uygulama",
+      "unknown": "Bilinmiyor"
+    },
+    "mailFallbackTitle": "E-posta uygulaması açılamadı",
+    "emailFallbackMessage": "support@example.com adresi panoya kopyalandı. Uygun bir e-posta uygulamasına yapıştırabilirsiniz.",
+    "bugReportFallbackMessage": "Destek adresi ve hata bildirim taslağı panoya kopyalandı. Uygun bir e-posta uygulamasına yapıştırabilirsiniz.",
+    "mailFallbackCopyFailedMessage": "E-posta uygulaması kullanılamıyor ve panoya kopyalama işlemi de başarısız oldu."
+  },
+  "drawer": {
+    "home": "Ana Sayfa"
+  },
+  "appName": "TemplateRN",
+  "homeScreen": {
+    "title": "Hoş geldiniz",
+    "subtitleLoggedIn": "Giriş yaptınız. Uygulamanızı bu şablon üzerinden geliştirmeye başlayabilirsiniz.",
+    "subtitleLoggedOut": "Başlamak için giriş yapın veya uygulamanızı bu şablon üzerinden geliştirmeye başlayın."
+  }
+}
