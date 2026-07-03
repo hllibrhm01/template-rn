@@ -1,5 +1,16 @@
-function readPublicEnv(name: string) {
-  const value = process.env[name];
+// EXPO_PUBLIC_* variables are inlined at build time, which only works for
+// static `process.env.X` member access — hence this explicit table instead of
+// a dynamic `process.env[name]` lookup.
+const PUBLIC_ENV = {
+  EXPO_PUBLIC_API_URL: process.env.EXPO_PUBLIC_API_URL,
+  EXPO_PUBLIC_FRONTEND_URL: process.env.EXPO_PUBLIC_FRONTEND_URL,
+  EXPO_PUBLIC_SITE_URL: process.env.EXPO_PUBLIC_SITE_URL,
+} as const;
+
+type PublicEnvName = keyof typeof PUBLIC_ENV;
+
+function readPublicEnv(name: PublicEnvName) {
+  const value = PUBLIC_ENV[name];
 
   if (typeof value !== "string") {
     return undefined;
@@ -10,7 +21,7 @@ function readPublicEnv(name: string) {
   return normalizedValue.length > 0 ? normalizedValue : undefined;
 }
 
-function requirePublicEnv(name: string) {
+function requirePublicEnv(name: PublicEnvName) {
   const value = readPublicEnv(name);
 
   if (!value) {

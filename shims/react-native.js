@@ -22,27 +22,27 @@ function useScaledTypographyStyle(style) {
     }, [scale, style]);
 }
 
-const Text = React.forwardRef(function ScaledText(props, ref) {
+// React 19 treats `ref` as a regular prop on function components, so the
+// spread below forwards it to the native component without forwardRef.
+function Text(props) {
     const scaledStyle = useScaledTypographyStyle(props.style);
 
     return React.createElement(NativeText, {
         ...props,
         allowFontScaling: props.allowFontScaling ?? false,
-        ref,
         style: scaledStyle,
     });
-});
+}
 
-const TextInput = React.forwardRef(function ScaledTextInput(props, ref) {
+function TextInput(props) {
     const scaledStyle = useScaledTypographyStyle(props.style);
 
     return React.createElement(NativeTextInput, {
         ...props,
         allowFontScaling: props.allowFontScaling ?? false,
-        ref,
         style: scaledStyle,
     });
-});
+}
 
 Text.displayName = NativeText.displayName || "Text";
 TextInput.displayName = NativeTextInput.displayName || "TextInput";
