@@ -1,0 +1,127 @@
+export interface UserUpdateRequest {
+  name?: string;
+  surname?: string;
+  email?: string;
+  phone?: string;
+  language?: string;
+  notificationsEnabled?: boolean;
+}
+
+export enum SmsOtpType {
+  PHONE_VERIFICATION = "phone_verification",
+}
+
+enum UserAccountType {
+  INDIVIDUAL = "individual",
+  COMPANY = "company",
+}
+
+enum UserStatus {
+  ORGANIZER = "organizer",
+  PENDING = "pending",
+  ACTIVE = "active",
+  INACTIVE = "inactive",
+  FROZEN = "frozen",
+  BLOCKED = "blocked",
+  DELETED = "deleted",
+  BANNED = "banned",
+}
+
+export interface DeleteAccountRequest {
+  confirmationEmail: string;
+}
+
+export interface ReactivateAccountRequest {
+  email: string;
+  password: string;
+}
+
+interface User {
+  id: string;
+  createdAt: string;
+  updatedAt: string;
+  isDeleted: boolean;
+  userAccountType: UserAccountType;
+  name: string;
+  surname: string;
+  email: string;
+  phone: string;
+  status: UserStatus;
+  language: string;
+  authProvider: string;
+  emailVerified: boolean;
+  emailVerifiedAt: string | null;
+  isPhoneVerified: boolean;
+  notificationsEnabled?: boolean;
+  photo: string | null;
+  enabledPolicies: string[];
+}
+
+export interface UserGetResponse {
+  result: User;
+}
+
+export interface EmailVerificationResponse {
+  message: string;
+}
+
+export interface MessageResponse {
+  message: string;
+}
+
+export interface ChangePasswordRequest {
+  oldPassword: string;
+  newPassword: string;
+}
+
+export interface SendSmsOtpRequest {
+  type?: SmsOtpType;
+}
+
+export interface SendSmsOtpResponse {
+  success: boolean;
+  message: string;
+  expiresAt: string;
+  cooldownUntil?: string;
+}
+
+export interface VerifySmsOtpRequest {
+  otpCode: string;
+  type?: SmsOtpType;
+}
+
+export interface VerifySmsOtpResponse {
+  success: boolean;
+  message: string;
+  phoneNumber: string;
+  verifiedAt: string;
+}
+
+export interface UploadUrlResponse {
+  result: {
+    url: string;
+    id: string;
+  };
+}
+
+export interface ConfirmUploadRequest {
+  id: string;
+  userId: string;
+}
+
+export interface ConfirmUploadResponse {
+  result: {
+    photo: string;
+  };
+}
+
+export interface DeletePhotoRequest {
+  id: string;
+  userId: string;
+}
+
+export interface DeletePhotoResponse {
+  result: {
+    photo: string | null;
+  };
+}

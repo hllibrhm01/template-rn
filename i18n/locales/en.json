@@ -1,0 +1,528 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "requestFailed": "Request failed",
+    "networkError": "Network error. Please check your connection.",
+    "requestTimedOut": "The request timed out. Please try again.",
+    "retry": "Retry",
+    "close": "Close",
+    "offline": "No internet connection",
+    "online": "Internet connection restored",
+    "languages": {
+      "de": "German",
+      "en": "English",
+      "tr": "Turkish"
+    },
+    "status": {
+      "verified": "Verified",
+      "unverified": "Not verified"
+    },
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "error": "Error"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again."
+  },
+  "auth": {
+    "loading": "Loading...",
+    "callback": {
+      "unreadableSession": "The session returned to the app could not be read. Please sign in again.",
+      "invalidSessionData": "The session data looks incomplete or corrupted. Please try again.",
+      "noPendingSession": "There is no pending sign-in session to complete. Please try again from your profile.",
+      "failedTitle": "Sign-in could not be completed",
+      "backToProfile": "Back to Profile",
+      "signingIn": "Signing in...",
+      "pleaseWait": "Please wait"
+    }
+  },
+  "tabs": {
+    "settings": "Settings",
+    "signIn": "Sign In",
+    "home": "Home"
+  },
+  "settings": {
+    "title": "Account Settings",
+    "noUser": "User information could not be found.",
+    "items": {
+      "security": "Security",
+      "appSettings": "App Settings"
+    },
+    "sections": {
+      "personal": "PERSONAL INFORMATION",
+      "security": "SECURITY",
+      "appSettings": "APP SETTINGS",
+      "account": "ACCOUNT"
+    },
+    "editProfile": "Edit Profile",
+    "phoneNumber": "Phone Number",
+    "emailAddress": "Email Address",
+    "changePassword": "Change Password",
+    "activeSessions": "Active Sessions",
+    "language": "Language",
+    "textSize": "Text Size",
+    "notificationPreferences": "Notification Preferences",
+    "freezeAccount": "Freeze Account",
+    "deleteAccount": "Delete Account"
+  },
+  "textSize": {
+    "title": "Text Size",
+    "description": "Adjust heading and body text sizes across the app instantly. Your choice is saved on this device.",
+    "previewLabel": "Live Preview",
+    "previewTitle": "Headings and body copy scale together",
+    "previewBody": "This preview shows how your selected size affects titles, descriptions, and supporting text throughout the app.",
+    "previewCaption": "The new size is applied across the app immediately.",
+    "options": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "extraLarge": "Extra Large"
+    },
+    "descriptions": {
+      "small": "Creates a more compact layout.",
+      "medium": "The default balanced appearance.",
+      "large": "Improves readability.",
+      "extraLarge": "Uses larger text for maximum visibility."
+    }
+  },
+  "language": {
+    "title": "Language",
+    "noUser": "User information could not be found.",
+    "description": "Choose a language to change the app and notification language.",
+    "save": "Save",
+    "saved": "Language preference saved",
+    "saveFailed": "Language could not be changed",
+    "retryLater": "Please try again."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "emptyTitle": "You have no notifications yet",
+    "emptyMessage": "Notifications about new listings, messages, and offers will appear here."
+  },
+  "legal": {
+    "title": "Legal",
+    "version": "Version {{version}}",
+    "empty": "No legal documents were found."
+  },
+  "deleteAccount": {
+    "title": "Delete Account",
+    "noUser": "User information could not be found.",
+    "confirmTitle": "Delete account",
+    "confirmMessage": "Your account will be closed and your session will end. You will not be able to sign in again afterward.",
+    "cancel": "Cancel",
+    "confirmAction": "Delete account",
+    "deleted": "Account deleted",
+    "deleteFailed": "Account could not be deleted",
+    "retryLater": "Please try again later.",
+    "warningTitle": "This action cannot be undone",
+    "warningText": "Your account will be soft-deleted, all sessions will be terminated, and access to protected screens will be revoked.",
+    "accountTitle": "Account to be closed",
+    "emailTitle": "Email confirmation",
+    "emailDescription": "To continue, re-enter your account email address.",
+    "button": "Delete my account"
+  },
+  "reactivateAccount": {
+    "title": "Reactivate Account",
+    "heroTitle": "Reactivate your account",
+    "description": "If you previously froze your account, you can reactivate it with your email address and password.",
+    "frozenDescription": "We noticed that your account is frozen during sign-in. Verify your email address and password to continue.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "example@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Your password",
+    "button": "Reactivate my account",
+    "successTitle": "Account reactivated",
+    "successMessage": "You can access your profile again.",
+    "errorTitle": "Account could not be reactivated",
+    "errorMessage": "Check your credentials and try again."
+  },
+  "about": {
+    "title": "About",
+    "tagline": "AI-powered vehicle analysis",
+    "versionLabel": "Version",
+    "buildLabel": "Build",
+    "platformLabel": "Platform",
+    "checkUpdates": "Check for Updates",
+    "updateAvailableTitle": "Update available",
+    "updateAvailableMessage": "New version: {{version}}",
+    "upToDateTitle": "Your app is up to date",
+    "versionValue": "Version {{version}}",
+    "links": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "openSource": "Open Source Licenses"
+    },
+    "copyright": "© {{year}} TemplateRN. All rights reserved."
+  },
+  "feedbackScreen": {
+    "title": "Complaint & Suggestion",
+    "heading": "Choose your feedback type",
+    "description": "Select the topic you want to share with our team and provide the details.",
+    "historyButton": "My submissions",
+    "types": {
+      "complaint": {
+        "title": "Complaint",
+        "description": "Report the problems and negative experiences you encountered."
+      },
+      "suggestion": {
+        "title": "Suggestion",
+        "description": "Share your ideas to improve the product or experience."
+      }
+    },
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Write a short title",
+    "subjectHelper": "Minimum 4 characters",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Please share the details",
+    "messageHelper": "Minimum 10 characters",
+    "submit": "Send",
+    "successComplaintTitle": "Complaint sent",
+    "successSuggestionTitle": "Suggestion sent",
+    "successMessage": "Our team will review your feedback.",
+    "submitErrorTitle": "Feedback could not be sent",
+    "submitErrorMessage": "Please try again later."
+  },
+  "feedbackHistory": {
+    "infoText": "You can track the status of the complaints and suggestions you submitted here.",
+    "createButton": "New Feedback",
+    "emptyTitle": "No feedback yet",
+    "emptyText": "Send your first complaint or suggestion to contact the team directly.",
+    "emptyAction": "Create Feedback",
+    "latestRecords": "Showing the latest {{count}} records.",
+    "loadErrorTitle": "Feedback could not be loaded",
+    "loadErrorFallback": "Please refresh the page and try again.",
+    "reviewNote": "Review note",
+    "lastUpdated": "Latest status date",
+    "status": {
+      "new": "New",
+      "in_review": "In Review",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    }
+  },
+  "permissionsScreen": {
+    "status": {
+      "active": "Active",
+      "inactive": "Off"
+    },
+    "actions": {
+      "manage": "Manage Settings",
+      "allow": "Allow"
+    },
+    "cards": {
+      "notifications": {
+        "label": "Notifications",
+        "description": "Used to receive reservation updates and important notifications"
+      },
+      "camera": {
+        "label": "Camera",
+        "description": "Used to take vehicle photos"
+      },
+      "media": {
+        "label": "Gallery & Media",
+        "description": "Used to choose vehicle photos and videos from your gallery"
+      }
+    },
+    "footer": {
+      "description": "You can also manage all permissions from your device settings.",
+      "openSettings": "Open Settings"
+    }
+  },
+  "changePasswordScreen": {
+    "title": "Change your password",
+    "subtitle": "For your security, enter your current password and set a new one.",
+    "oauthTitle": "Password change unavailable",
+    "oauthMessage": "Because your account was created with {{provider}}, changing your password is not available here. You can manage your account security through your provider.",
+    "strength": {
+      "veryWeak": "Very weak",
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong",
+      "veryStrong": "Very strong"
+    },
+    "requirements": {
+      "minLength": "At least 8 characters",
+      "uppercase": "Uppercase letter (A-Z)",
+      "lowercase": "Lowercase letter (a-z)",
+      "number": "Number (0-9)",
+      "special": "Special character (!@#$...)"
+    },
+    "fields": {
+      "current": {
+        "label": "Current password",
+        "placeholder": "Your current password"
+      },
+      "next": {
+        "label": "New password",
+        "placeholder": "Your new password"
+      },
+      "confirm": {
+        "label": "Confirm new password",
+        "placeholder": "Enter your new password again"
+      }
+    },
+    "passwordMismatch": "Passwords do not match",
+    "submit": "Change Password",
+    "successTitle": "Password changed",
+    "successMessage": "Your new password has been saved successfully.",
+    "errorTitle": "Password could not be changed",
+    "errorMessage": "Please try again later."
+  },
+  "freezeAccount": {
+    "confirmTitle": "Freeze account",
+    "confirmMessage": "Your account will be temporarily frozen and all of your sessions will be ended. The next time you sign in, you can reactivate your account with your email address and password.",
+    "cancel": "Cancel",
+    "confirmAction": "Freeze account",
+    "successTitle": "Account frozen",
+    "successMessage": "You can reactivate your account the next time you sign in.",
+    "errorTitle": "Account could not be frozen",
+    "errorMessage": "Please try again later.",
+    "warningTitle": "This action can be reversed",
+    "warningText": "When your account is frozen, your current sessions will be closed and you will lose access to protected areas. You can reactivate your account on your next sign-in.",
+    "accountTitle": "Account to be frozen",
+    "button": "Freeze my account"
+  },
+  "activeSessionsScreen": {
+    "unknownPlatform": "Unknown",
+    "currentDevice": "This device",
+    "lastActive": "Last active",
+    "revokeButton": "Close session",
+    "confirmTitle": "Close session",
+    "confirmMessage": "The session on this device will be ended. Do you want to continue?",
+    "cancel": "Cancel",
+    "confirmAction": "Close Session",
+    "revokeSuccess": "Session closed",
+    "revokeErrorTitle": "Session could not be closed",
+    "revokeErrorMessage": "Please try again.",
+    "noOtherSessions": "There are no other active sessions",
+    "revokeAllTitle": "Close all sessions",
+    "revokeAllMessage": "{{count}} sessions except this device will be ended. Do you want to continue?",
+    "revokeAllAction": "Close All",
+    "revokeAllSuccess": "All sessions were closed",
+    "revokeAllErrorTitle": "Some sessions could not be closed",
+    "revokeAllErrorMessage": "Please refresh the page and try again.",
+    "infoText": "You can view and manage all active sessions on your account here.",
+    "emptyTitle": "No active sessions found",
+    "revokeOtherSessions": "Close All Other Sessions ({{count}})",
+    "loadErrorTitle": "Sessions could not be loaded",
+    "loadErrorFallback": "Please refresh the page and try again."
+  },
+  "emailAddressScreen": {
+    "title": "Registered email",
+    "subtitle": "When you change your email address, your verification status will be reset.",
+    "label": "Email address",
+    "placeholder": "example@mail.com",
+    "statusLabel": "Status",
+    "saveButton": "Save email",
+    "verificationButton": "Send verification email",
+    "updateSuccessTitle": "Email updated",
+    "updateSuccessMessage": "You need to verify your new address.",
+    "updateErrorTitle": "Email could not be updated",
+    "verificationSuccessTitle": "Verification email sent",
+    "verificationErrorTitle": "Email could not be sent",
+    "errorMessage": "Please try again later."
+  },
+  "editProfileScreen": {
+    "title": "My Personal Information",
+    "saveHeader": "Save",
+    "avatarHint": "Tap to change your profile photo",
+    "personalInfoTitle": "Personal Information",
+    "saveButton": "Save Changes",
+    "cancel": "Cancel",
+    "saveSuccessTitle": "Profile updated",
+    "saveErrorTitle": "Update failed",
+    "saveErrorMessage": "An error occurred while updating the profile.",
+    "photoUpdated": "Photo updated",
+    "photoUploadFailedTitle": "Photo could not be uploaded",
+    "photoUploadFailedMessage": "Please try again.",
+    "photoDeleted": "Photo deleted",
+    "photoDeleteFailedTitle": "Photo could not be deleted",
+    "photoDeleteFailedMessage": "Please try again.",
+    "photoOptions": {
+      "title": "Profile Photo",
+      "message": "Choose an option",
+      "takePhoto": "Take Photo",
+      "chooseFromGallery": "Choose from Gallery",
+      "deletePhoto": "Delete Photo",
+      "cancel": "Cancel"
+    },
+    "fields": {
+      "name": {
+        "label": "First name *",
+        "placeholder": "Enter your first name",
+        "required": "First name is required"
+      },
+      "surname": {
+        "label": "Last name *",
+        "placeholder": "Enter your last name",
+        "required": "Last name is required"
+      },
+      "email": {
+        "label": "Email",
+        "helper": "Contact support to change your email address"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Your phone number"
+      }
+    },
+    "alerts": {
+      "permissionRequiredTitle": "Permission Required",
+      "cameraPermissionMessage": "Camera access is required to take a photo.",
+      "galleryPermissionMessage": "Photo library access is required to choose a photo."
+    }
+  },
+  "phoneNumberScreen": {
+    "screenTitle": "My mobile phone number",
+    "title": "Your phone number",
+    "subtitle": "After updating your number, send an SMS verification code.",
+    "label": "Phone",
+    "placeholder": "05XX XXX XX XX",
+    "statusLabel": "Status",
+    "saveButton": "Save number",
+    "sendCodeButton": "Send SMS code",
+    "verificationTitle": "Verification code",
+    "codePlaceholder": "6-digit code",
+    "verifyButton": "Verify code",
+    "back": "Go back",
+    "notifications": {
+      "updatedTitle": "Phone number updated",
+      "updatedMessage": "You need to verify your new number.",
+      "updateFailedTitle": "Phone could not be updated",
+      "codeSentTitle": "Verification code sent",
+      "codeFailedTitle": "Code could not be sent",
+      "verifiedTitle": "Phone verified",
+      "verifyFailedTitle": "Code could not be verified",
+      "errorMessage": "Please try again later."
+    }
+  },
+  "notificationPreferencesScreen": {
+    "sections": {
+      "push": "PUSH NOTIFICATIONS",
+      "categories": "NOTIFICATION CATEGORIES"
+    },
+    "master": {
+      "title": "Notifications",
+      "enabled": "Notifications are enabled",
+      "disabled": "Notifications are off — you can enable them in settings"
+    },
+    "actions": {
+      "enable": "Enable Notifications",
+      "manageSystem": "Manage System Settings"
+    },
+    "categories": {
+      "messages": {
+        "label": "Messages",
+        "description": "Chat messages and replies"
+      },
+      "promotions": {
+        "label": "Promotions",
+        "description": "Deals, discounts, and product updates"
+      },
+      "system": {
+        "label": "System Notifications",
+        "description": "Account security and system updates"
+      }
+    },
+    "disabledNote": "Turn on notifications to manage category preferences.",
+    "notifications": {
+      "updateFailedTitle": "Notification preferences could not be updated",
+      "updateFailedMessage": "Please try again later."
+    }
+  },
+  "profileScreen": {
+    "guestTitle": "Sign in to your account",
+    "guestDescription": "Manage your profile, access your garage, and use all features.",
+    "register": "Register",
+    "termsPrefix": "By continuing, you agree to the",
+    "termsMiddle": "and",
+    "termsSuffix": ".",
+    "emailChip": "Email",
+    "phoneChip": "Phone",
+    "permissions": "Permissions",
+    "support": "Help & Support",
+    "feedback": "Complaint & Suggestion",
+    "feedbackHistory": "My Feedback",
+    "logout": "Log Out",
+    "logoutConfirm": "Are you sure you want to log out?",
+    "cancel": "Cancel",
+    "loginStartFailed": "Sign-in could not be started",
+    "registerStartFailed": "Registration could not be started",
+    "authFailedTitle": "Sign-in could not be completed",
+    "sections": {
+      "account": "MY ACCOUNT",
+      "support": "SUPPORT"
+    },
+    "errors": {
+      "frontendUrlMissing": "Frontend URL configuration is missing.",
+      "additionalActionRequired": "An additional action is required for your account. Please try again.",
+      "browserSessionFailed": "A problem occurred while starting the browser session."
+    }
+  },
+  "supportScreen": {
+    "sections": {
+      "faq": "FREQUENTLY ASKED QUESTIONS",
+      "contact": "CONTACT",
+      "feedback": "COMPLAINT & SUGGESTION",
+      "bugReport": "BUG REPORT"
+    },
+    "faqItems": [
+      {
+        "question": "How does vehicle analysis work?",
+        "answer": "Upload photos of your vehicle and the AI system will automatically analyze the vehicle details and present the results to you."
+      },
+      {
+        "question": "How can I buy credits?",
+        "answer": "Go to the credit packages section from your profile page, choose the most suitable package, and complete the purchase. Purchased credits are added to your account instantly."
+      },
+      {
+        "question": "How reliable are the analysis results?",
+        "answer": "AI analysis results are provided for reference purposes. They do not replace a professional inspection, but they do offer a fast general overview."
+      },
+      {
+        "question": "How can I delete my account?",
+        "answer": "You can close your account from Profile > Account Settings > Delete Account. This action cannot be undone."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Yes. All of your data is stored in encrypted form. You can read our privacy policy from the Privacy Policy section on the Profile page."
+      }
+    ],
+    "contact": {
+      "emailTitle": "Contact by Email"
+    },
+    "feedbackCard": {
+      "title": "Send a complaint or suggestion",
+      "description": "Share your feedback directly in the app to help us improve the experience.",
+      "button": "Open Form"
+    },
+    "bugReportCard": {
+      "title": "Report a Bug",
+      "description": "If you encountered a problem, let us know. Device information is added automatically.",
+      "button": "Send Email"
+    },
+    "bugReportSubject": "TemplateRN - Bug Report",
+    "subjectLabel": "Subject",
+    "deviceInfo": {
+      "heading": "Device Information",
+      "device": "Device",
+      "os": "OS",
+      "app": "App",
+      "unknown": "Unknown"
+    },
+    "mailFallbackTitle": "Mail app could not be opened",
+    "emailFallbackMessage": "support@example.com was copied to the clipboard. You can paste it into any mail app.",
+    "bugReportFallbackMessage": "The support address and bug report draft were copied to the clipboard. You can paste them into any mail app.",
+    "mailFallbackCopyFailedMessage": "No mail app is available and copying the fallback text to the clipboard also failed."
+  },
+  "drawer": {
+    "home": "Home"
+  },
+  "appName": "TemplateRN",
+  "homeScreen": {
+    "title": "Welcome",
+    "subtitleLoggedIn": "You are signed in. Start building your app from this template.",
+    "subtitleLoggedOut": "Sign in to get started, or start building your app from this template."
+  }
+}
