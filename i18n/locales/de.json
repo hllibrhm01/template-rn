@@ -1,0 +1,528 @@
+{
+  "common": {
+    "loading": "Wird geladen...",
+    "requestFailed": "Anfrage fehlgeschlagen",
+    "networkError": "Netzwerkfehler. Bitte prüfen Sie Ihre Verbindung.",
+    "requestTimedOut": "Zeitüberschreitung bei der Anfrage. Bitte versuchen Sie es erneut.",
+    "retry": "Erneut versuchen",
+    "close": "Schließen",
+    "offline": "Keine Internetverbindung",
+    "online": "Internetverbindung wiederhergestellt",
+    "languages": {
+      "de": "Deutsch",
+      "en": "Englisch",
+      "tr": "Türkisch"
+    },
+    "status": {
+      "verified": "Bestätigt",
+      "unverified": "Nicht bestätigt"
+    },
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "error": "Fehler"
+  },
+  "errorBoundary": {
+    "title": "Etwas ist schiefgelaufen",
+    "description": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "auth": {
+    "loading": "Wird geladen...",
+    "callback": {
+      "unreadableSession": "Die an die App zurückgesendete Sitzung konnte nicht gelesen werden. Bitte melden Sie sich erneut an.",
+      "invalidSessionData": "Die Sitzungsdaten wirken unvollständig oder beschädigt. Bitte versuchen Sie es erneut.",
+      "noPendingSession": "Es gibt keine offene Anmeldung zum Abschließen. Bitte versuchen Sie es erneut über Ihr Profil.",
+      "failedTitle": "Anmeldung konnte nicht abgeschlossen werden",
+      "backToProfile": "Zurück zum Profil",
+      "signingIn": "Anmeldung läuft...",
+      "pleaseWait": "Bitte warten"
+    }
+  },
+  "tabs": {
+    "settings": "Settings",
+    "signIn": "Anmelden",
+    "home": "Startseite"
+  },
+  "settings": {
+    "title": "Kontoeinstellungen",
+    "noUser": "Benutzerinformationen konnten nicht gefunden werden.",
+    "items": {
+      "security": "Sicherheit",
+      "appSettings": "App-Einstellungen"
+    },
+    "sections": {
+      "personal": "PERSÖNLICHE DATEN",
+      "security": "SICHERHEIT",
+      "appSettings": "APP-EINSTELLUNGEN",
+      "account": "KONTO"
+    },
+    "editProfile": "Profil bearbeiten",
+    "phoneNumber": "Telefonnummer",
+    "emailAddress": "E-Mail-Adresse",
+    "changePassword": "Passwort ändern",
+    "activeSessions": "Aktive Sitzungen",
+    "language": "Sprache",
+    "textSize": "Textgröße",
+    "notificationPreferences": "Benachrichtigungseinstellungen",
+    "freezeAccount": "Konto einfrieren",
+    "deleteAccount": "Konto schließen"
+  },
+  "textSize": {
+    "title": "Textgröße",
+    "description": "Passen Sie Überschriften und Fließtext in der gesamten App sofort an. Ihre Auswahl wird auf diesem Gerät gespeichert.",
+    "previewLabel": "Live-Vorschau",
+    "previewTitle": "Überschriften und Fließtext werden gemeinsam skaliert",
+    "previewBody": "Diese Vorschau zeigt, wie sich die gewählte Größe auf Titel, Beschreibungen und ergänzende Texte in der App auswirkt.",
+    "previewCaption": "Die neue Größe wird sofort in der gesamten App angewendet.",
+    "options": {
+      "small": "Klein",
+      "medium": "Mittel",
+      "large": "Groß",
+      "extraLarge": "Sehr Groß"
+    },
+    "descriptions": {
+      "small": "Sorgt für eine kompaktere Darstellung.",
+      "medium": "Die ausgewogene Standarddarstellung.",
+      "large": "Verbessert die Lesbarkeit.",
+      "extraLarge": "Verwendet größere Texte für maximale Sichtbarkeit."
+    }
+  },
+  "language": {
+    "title": "Sprache",
+    "noUser": "Benutzerinformationen konnten nicht gefunden werden.",
+    "description": "Wählen Sie eine Sprache für die App- und Benachrichtigungssprache.",
+    "save": "Speichern",
+    "saved": "Spracheinstellung gespeichert",
+    "saveFailed": "Sprache konnte nicht geändert werden",
+    "retryLater": "Bitte versuchen Sie es erneut."
+  },
+  "notifications": {
+    "title": "Benachrichtigungen",
+    "emptyTitle": "Sie haben noch keine Benachrichtigungen",
+    "emptyMessage": "Benachrichtigungen zu neuen Anzeigen, Nachrichten und Angeboten werden hier angezeigt."
+  },
+  "legal": {
+    "title": "Rechtliches",
+    "version": "Version {{version}}",
+    "empty": "Es wurden keine rechtlichen Dokumente gefunden."
+  },
+  "deleteAccount": {
+    "title": "Konto löschen",
+    "noUser": "Benutzerinformationen konnten nicht gefunden werden.",
+    "confirmTitle": "Konto schließen",
+    "confirmMessage": "Ihr Konto wird geschlossen und Ihre Sitzung beendet. Danach können Sie sich nicht erneut anmelden.",
+    "cancel": "Abbrechen",
+    "confirmAction": "Konto schließen",
+    "deleted": "Konto geschlossen",
+    "deleteFailed": "Konto konnte nicht geschlossen werden",
+    "retryLater": "Bitte versuchen Sie es später erneut.",
+    "warningTitle": "Diese Aktion kann nicht rückgängig gemacht werden",
+    "warningText": "Ihr Konto wird per Soft Delete geschlossen, alle Sitzungen werden beendet und der Zugriff auf geschützte Bereiche wird entzogen.",
+    "accountTitle": "Zu schließendes Konto",
+    "emailTitle": "E-Mail-Bestätigung",
+    "emailDescription": "Geben Sie zum Fortfahren Ihre Konto-E-Mail-Adresse erneut ein.",
+    "button": "Mein Konto schließen"
+  },
+  "reactivateAccount": {
+    "title": "Konto reaktivieren",
+    "heroTitle": "Reaktivieren Sie Ihr Konto",
+    "description": "Wenn Sie Ihr Konto zuvor eingefroren haben, können Sie es mit Ihrer E-Mail-Adresse und Ihrem Passwort wieder aktivieren.",
+    "frozenDescription": "Wir haben während der Anmeldung festgestellt, dass Ihr Konto eingefroren ist. Bestätigen Sie Ihre E-Mail-Adresse und Ihr Passwort, um fortzufahren.",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "beispiel@example.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Ihr Passwort",
+    "button": "Mein Konto reaktivieren",
+    "successTitle": "Konto reaktiviert",
+    "successMessage": "Sie können wieder auf Ihr Profil zugreifen.",
+    "errorTitle": "Konto konnte nicht reaktiviert werden",
+    "errorMessage": "Prüfen Sie Ihre Angaben und versuchen Sie es erneut."
+  },
+  "about": {
+    "title": "Info",
+    "tagline": "KI-gestützte Fahrzeuganalyse",
+    "versionLabel": "Version",
+    "buildLabel": "Build",
+    "platformLabel": "Plattform",
+    "checkUpdates": "Nach Updates suchen",
+    "updateAvailableTitle": "Update verfügbar",
+    "updateAvailableMessage": "Neue Version: {{version}}",
+    "upToDateTitle": "Ihre App ist aktuell",
+    "versionValue": "Version {{version}}",
+    "links": {
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzrichtlinie",
+      "openSource": "Open-Source-Lizenzen"
+    },
+    "copyright": "© {{year}} TemplateRN. Alle Rechte vorbehalten."
+  },
+  "feedbackScreen": {
+    "title": "Beschwerde & Vorschlag",
+    "heading": "Wählen Sie Ihre Rückmeldungsart",
+    "description": "Wählen Sie das Thema aus, das Sie mit unserem Team teilen möchten, und schildern Sie die Details.",
+    "historyButton": "Meine Einsendungen",
+    "types": {
+      "complaint": {
+        "title": "Beschwerde",
+        "description": "Melden Sie Probleme und unzufriedene Erfahrungen, die Sie erlebt haben."
+      },
+      "suggestion": {
+        "title": "Vorschlag",
+        "description": "Teilen Sie Ihre Ideen zur Verbesserung des Produkts oder der Nutzungserfahrung."
+      }
+    },
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Schreiben Sie einen kurzen Titel",
+    "subjectHelper": "Mindestens 4 Zeichen",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Bitte teilen Sie die Details mit",
+    "messageHelper": "Mindestens 10 Zeichen",
+    "submit": "Senden",
+    "successComplaintTitle": "Beschwerde gesendet",
+    "successSuggestionTitle": "Vorschlag gesendet",
+    "successMessage": "Unser Team wird Ihr Feedback prüfen.",
+    "submitErrorTitle": "Feedback konnte nicht gesendet werden",
+    "submitErrorMessage": "Bitte versuchen Sie es später erneut."
+  },
+  "feedbackHistory": {
+    "infoText": "Hier können Sie den Status Ihrer gesendeten Beschwerden und Vorschläge verfolgen.",
+    "createButton": "Neues Feedback",
+    "emptyTitle": "Noch kein Feedback vorhanden",
+    "emptyText": "Senden Sie Ihre erste Beschwerde oder Ihren ersten Vorschlag, um direkt mit dem Team in Kontakt zu treten.",
+    "emptyAction": "Feedback erstellen",
+    "latestRecords": "Die neuesten {{count}} Einträge werden angezeigt.",
+    "loadErrorTitle": "Feedback konnte nicht geladen werden",
+    "loadErrorFallback": "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.",
+    "reviewNote": "Prüfnotiz",
+    "lastUpdated": "Letztes Statusdatum",
+    "status": {
+      "new": "Neu",
+      "in_review": "In Prüfung",
+      "resolved": "Gelöst",
+      "closed": "Geschlossen"
+    }
+  },
+  "permissionsScreen": {
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Deaktiviert"
+    },
+    "actions": {
+      "manage": "Einstellungen verwalten",
+      "allow": "Erlauben"
+    },
+    "cards": {
+      "notifications": {
+        "label": "Benachrichtigungen",
+        "description": "Wird verwendet, um Reservierungsupdates und wichtige Benachrichtigungen zu erhalten"
+      },
+      "camera": {
+        "label": "Kamera",
+        "description": "Wird verwendet, um Fahrzeugfotos aufzunehmen"
+      },
+      "media": {
+        "label": "Galerie & Medien",
+        "description": "Wird verwendet, um Fahrzeugfotos und Videos aus Ihrer Galerie auszuwählen"
+      }
+    },
+    "footer": {
+      "description": "Sie können alle Berechtigungen auch in den Geräteeinstellungen verwalten.",
+      "openSettings": "Einstellungen öffnen"
+    }
+  },
+  "changePasswordScreen": {
+    "title": "Passwort ändern",
+    "subtitle": "Geben Sie aus Sicherheitsgründen Ihr aktuelles Passwort ein und legen Sie ein neues fest.",
+    "oauthTitle": "Passwortänderung nicht verfügbar",
+    "oauthMessage": "Da Ihr Konto mit {{provider}} erstellt wurde, können Sie Ihr Passwort hier nicht ändern. Sie können Ihre Kontosicherheit über Ihren Anbieter verwalten.",
+    "strength": {
+      "veryWeak": "Sehr schwach",
+      "weak": "Schwach",
+      "medium": "Mittel",
+      "strong": "Stark",
+      "veryStrong": "Sehr stark"
+    },
+    "requirements": {
+      "minLength": "Mindestens 8 Zeichen",
+      "uppercase": "Großbuchstabe (A-Z)",
+      "lowercase": "Kleinbuchstabe (a-z)",
+      "number": "Zahl (0-9)",
+      "special": "Sonderzeichen (!@#$...)"
+    },
+    "fields": {
+      "current": {
+        "label": "Aktuelles Passwort",
+        "placeholder": "Ihr aktuelles Passwort"
+      },
+      "next": {
+        "label": "Neues Passwort",
+        "placeholder": "Ihr neues Passwort"
+      },
+      "confirm": {
+        "label": "Neues Passwort bestätigen",
+        "placeholder": "Geben Sie Ihr neues Passwort erneut ein"
+      }
+    },
+    "passwordMismatch": "Passwörter stimmen nicht überein",
+    "submit": "Passwort ändern",
+    "successTitle": "Passwort geändert",
+    "successMessage": "Ihr neues Passwort wurde erfolgreich gespeichert.",
+    "errorTitle": "Passwort konnte nicht geändert werden",
+    "errorMessage": "Bitte versuchen Sie es später erneut."
+  },
+  "freezeAccount": {
+    "confirmTitle": "Konto einfrieren",
+    "confirmMessage": "Ihr Konto wird vorübergehend eingefroren und alle Sitzungen werden beendet. Bei Ihrer nächsten Anmeldung können Sie Ihr Konto mit Ihrer E-Mail-Adresse und Ihrem Passwort wieder aktivieren.",
+    "cancel": "Abbrechen",
+    "confirmAction": "Konto einfrieren",
+    "successTitle": "Konto eingefroren",
+    "successMessage": "Sie können Ihr Konto bei Ihrer nächsten Anmeldung wieder aktivieren.",
+    "errorTitle": "Konto konnte nicht eingefroren werden",
+    "errorMessage": "Bitte versuchen Sie es später erneut.",
+    "warningTitle": "Diese Aktion kann rückgängig gemacht werden",
+    "warningText": "Wenn Ihr Konto eingefroren wird, werden Ihre aktuellen Sitzungen geschlossen und Sie verlieren den Zugriff auf geschützte Bereiche. Bei Ihrer nächsten Anmeldung können Sie Ihr Konto wieder aktivieren.",
+    "accountTitle": "Einzufrierendes Konto",
+    "button": "Mein Konto einfrieren"
+  },
+  "activeSessionsScreen": {
+    "unknownPlatform": "Unbekannt",
+    "currentDevice": "Dieses Gerät",
+    "lastActive": "Zuletzt aktiv",
+    "revokeButton": "Sitzung beenden",
+    "confirmTitle": "Sitzung beenden",
+    "confirmMessage": "Die Sitzung auf diesem Gerät wird beendet. Möchten Sie fortfahren?",
+    "cancel": "Abbrechen",
+    "confirmAction": "Sitzung beenden",
+    "revokeSuccess": "Sitzung beendet",
+    "revokeErrorTitle": "Sitzung konnte nicht beendet werden",
+    "revokeErrorMessage": "Bitte versuchen Sie es erneut.",
+    "noOtherSessions": "Es gibt keine weiteren aktiven Sitzungen",
+    "revokeAllTitle": "Alle Sitzungen beenden",
+    "revokeAllMessage": "{{count}} Sitzungen außer diesem Gerät werden beendet. Möchten Sie fortfahren?",
+    "revokeAllAction": "Alle beenden",
+    "revokeAllSuccess": "Alle Sitzungen wurden beendet",
+    "revokeAllErrorTitle": "Einige Sitzungen konnten nicht beendet werden",
+    "revokeAllErrorMessage": "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.",
+    "infoText": "Hier können Sie alle aktiven Sitzungen Ihres Kontos anzeigen und verwalten.",
+    "emptyTitle": "Keine aktiven Sitzungen gefunden",
+    "revokeOtherSessions": "Alle anderen Sitzungen beenden ({{count}})",
+    "loadErrorTitle": "Sitzungen konnten nicht geladen werden",
+    "loadErrorFallback": "Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
+  },
+  "emailAddressScreen": {
+    "title": "Registrierte E-Mail",
+    "subtitle": "Wenn Sie Ihre E-Mail-Adresse ändern, wird Ihr Verifizierungsstatus zurückgesetzt.",
+    "label": "E-Mail-Adresse",
+    "placeholder": "beispiel@mail.com",
+    "statusLabel": "Status",
+    "saveButton": "E-Mail speichern",
+    "verificationButton": "Bestätigungs-E-Mail senden",
+    "updateSuccessTitle": "E-Mail aktualisiert",
+    "updateSuccessMessage": "Sie müssen Ihre neue Adresse bestätigen.",
+    "updateErrorTitle": "E-Mail konnte nicht aktualisiert werden",
+    "verificationSuccessTitle": "Bestätigungs-E-Mail gesendet",
+    "verificationErrorTitle": "E-Mail konnte nicht gesendet werden",
+    "errorMessage": "Bitte versuchen Sie es später erneut."
+  },
+  "editProfileScreen": {
+    "title": "Meine persönlichen Daten",
+    "saveHeader": "Speichern",
+    "avatarHint": "Tippen Sie hier, um Ihr Profilfoto zu ändern",
+    "personalInfoTitle": "Persönliche Daten",
+    "saveButton": "Änderungen speichern",
+    "cancel": "Abbrechen",
+    "saveSuccessTitle": "Profil aktualisiert",
+    "saveErrorTitle": "Aktualisierung fehlgeschlagen",
+    "saveErrorMessage": "Beim Aktualisieren des Profils ist ein Fehler aufgetreten.",
+    "photoUpdated": "Foto aktualisiert",
+    "photoUploadFailedTitle": "Foto konnte nicht hochgeladen werden",
+    "photoUploadFailedMessage": "Bitte versuchen Sie es erneut.",
+    "photoDeleted": "Foto gelöscht",
+    "photoDeleteFailedTitle": "Foto konnte nicht gelöscht werden",
+    "photoDeleteFailedMessage": "Bitte versuchen Sie es erneut.",
+    "photoOptions": {
+      "title": "Profilfoto",
+      "message": "Wählen Sie eine Option",
+      "takePhoto": "Foto aufnehmen",
+      "chooseFromGallery": "Aus Galerie wählen",
+      "deletePhoto": "Foto löschen",
+      "cancel": "Abbrechen"
+    },
+    "fields": {
+      "name": {
+        "label": "Vorname *",
+        "placeholder": "Geben Sie Ihren Vornamen ein",
+        "required": "Vorname ist erforderlich"
+      },
+      "surname": {
+        "label": "Nachname *",
+        "placeholder": "Geben Sie Ihren Nachnamen ein",
+        "required": "Nachname ist erforderlich"
+      },
+      "email": {
+        "label": "E-Mail",
+        "helper": "Kontaktieren Sie den Support, um Ihre E-Mail-Adresse zu ändern"
+      },
+      "phone": {
+        "label": "Telefon",
+        "placeholder": "Ihre Telefonnummer"
+      }
+    },
+    "alerts": {
+      "permissionRequiredTitle": "Berechtigung erforderlich",
+      "cameraPermissionMessage": "Für die Aufnahme eines Fotos ist Kamerazugriff erforderlich.",
+      "galleryPermissionMessage": "Für die Auswahl eines Fotos ist Zugriff auf die Fotobibliothek erforderlich."
+    }
+  },
+  "phoneNumberScreen": {
+    "screenTitle": "Meine Mobiltelefonnummer",
+    "title": "Ihre Telefonnummer",
+    "subtitle": "Senden Sie nach der Aktualisierung Ihrer Nummer einen SMS-Bestätigungscode.",
+    "label": "Telefon",
+    "placeholder": "05XX XXX XX XX",
+    "statusLabel": "Status",
+    "saveButton": "Nummer speichern",
+    "sendCodeButton": "SMS-Code senden",
+    "verificationTitle": "Bestätigungscode",
+    "codePlaceholder": "6-stelliger Code",
+    "verifyButton": "Code bestätigen",
+    "back": "Zurück",
+    "notifications": {
+      "updatedTitle": "Telefonnummer aktualisiert",
+      "updatedMessage": "Sie müssen Ihre neue Nummer bestätigen.",
+      "updateFailedTitle": "Telefon konnte nicht aktualisiert werden",
+      "codeSentTitle": "Bestätigungscode gesendet",
+      "codeFailedTitle": "Code konnte nicht gesendet werden",
+      "verifiedTitle": "Telefon bestätigt",
+      "verifyFailedTitle": "Code konnte nicht bestätigt werden",
+      "errorMessage": "Bitte versuchen Sie es später erneut."
+    }
+  },
+  "notificationPreferencesScreen": {
+    "sections": {
+      "push": "PUSH-BENACHRICHTIGUNGEN",
+      "categories": "BENACHRICHTIGUNGSKATEGORIEN"
+    },
+    "master": {
+      "title": "Benachrichtigungen",
+      "enabled": "Benachrichtigungen sind aktiviert",
+      "disabled": "Benachrichtigungen sind aus — Sie können sie in den Einstellungen aktivieren"
+    },
+    "actions": {
+      "enable": "Benachrichtigungen aktivieren",
+      "manageSystem": "Systemeinstellungen verwalten"
+    },
+    "categories": {
+      "messages": {
+        "label": "Nachrichten",
+        "description": "Chatnachrichten und Antworten"
+      },
+      "promotions": {
+        "label": "Aktionen",
+        "description": "Angebote, Rabatte und Neuigkeiten"
+      },
+      "system": {
+        "label": "Systembenachrichtigungen",
+        "description": "Kontosicherheit und Systemaktualisierungen"
+      }
+    },
+    "disabledNote": "Aktivieren Sie Benachrichtigungen, um Kategorieeinstellungen zu verwalten.",
+    "notifications": {
+      "updateFailedTitle": "Benachrichtigungseinstellungen konnten nicht aktualisiert werden",
+      "updateFailedMessage": "Bitte versuchen Sie es später erneut."
+    }
+  },
+  "profileScreen": {
+    "guestTitle": "Melden Sie sich in Ihrem Konto an",
+    "guestDescription": "Verwalten Sie Ihr Profil, greifen Sie auf Ihre Garage zu und nutzen Sie alle Funktionen.",
+    "register": "Registrieren",
+    "termsPrefix": "Wenn Sie fortfahren, stimmen Sie den",
+    "termsMiddle": "und der",
+    "termsSuffix": "zu.",
+    "emailChip": "E-Mail",
+    "phoneChip": "Telefon",
+    "permissions": "Berechtigungen",
+    "support": "Hilfe & Support",
+    "feedback": "Beschwerde & Vorschlag",
+    "feedbackHistory": "Mein Feedback",
+    "logout": "Abmelden",
+    "logoutConfirm": "Möchten Sie sich wirklich abmelden?",
+    "cancel": "Abbrechen",
+    "loginStartFailed": "Anmeldung konnte nicht gestartet werden",
+    "registerStartFailed": "Registrierung konnte nicht gestartet werden",
+    "authFailedTitle": "Anmeldung konnte nicht abgeschlossen werden",
+    "sections": {
+      "account": "MEIN KONTO",
+      "support": "SUPPORT"
+    },
+    "errors": {
+      "frontendUrlMissing": "Die Frontend-URL-Konfiguration fehlt.",
+      "additionalActionRequired": "Für Ihr Konto ist eine zusätzliche Aktion erforderlich. Bitte versuchen Sie es erneut.",
+      "browserSessionFailed": "Beim Starten der Browser-Sitzung ist ein Problem aufgetreten."
+    }
+  },
+  "supportScreen": {
+    "sections": {
+      "faq": "HÄUFIG GESTELLTE FRAGEN",
+      "contact": "KONTAKT",
+      "feedback": "BESCHWERDE & VORSCHLAG",
+      "bugReport": "FEHLERBERICHT"
+    },
+    "faqItems": [
+      {
+        "question": "Wie funktioniert die Fahrzeuganalyse?",
+        "answer": "Laden Sie Fotos Ihres Fahrzeugs hoch. Das KI-System analysiert die Fahrzeugdetails automatisch und stellt Ihnen die Ergebnisse zur Verfügung."
+      },
+      {
+        "question": "Wie kann ich Credits kaufen?",
+        "answer": "Gehen Sie auf Ihrer Profilseite zum Bereich der Credit-Pakete, wählen Sie das passende Paket aus und schließen Sie den Kauf ab. Gekaufte Credits werden Ihrem Konto sofort gutgeschrieben."
+      },
+      {
+        "question": "Wie zuverlässig sind die Analyseergebnisse?",
+        "answer": "Die KI-Analyseergebnisse dienen nur als Orientierung. Sie ersetzen keine professionelle Begutachtung, geben aber einen schnellen allgemeinen Überblick."
+      },
+      {
+        "question": "Wie kann ich mein Konto löschen?",
+        "answer": "Sie können Ihr Konto unter Profil > Kontoeinstellungen > Konto löschen schließen. Dieser Vorgang kann nicht rückgängig gemacht werden."
+      },
+      {
+        "question": "Sind meine Daten sicher?",
+        "answer": "Ja. Alle Ihre Daten werden verschlüsselt gespeichert. Unsere Datenschutzerklärung finden Sie im Bereich Datenschutz auf der Profilseite."
+      }
+    ],
+    "contact": {
+      "emailTitle": "Per E-Mail kontaktieren"
+    },
+    "feedbackCard": {
+      "title": "Beschwerde oder Vorschlag senden",
+      "description": "Teilen Sie uns Ihr Feedback direkt in der App mit, damit wir das Erlebnis weiter verbessern können.",
+      "button": "Formular öffnen"
+    },
+    "bugReportCard": {
+      "title": "Fehler melden",
+      "description": "Wenn Sie auf ein Problem gestoßen sind, teilen Sie es uns mit. Geräteinformationen werden automatisch hinzugefügt.",
+      "button": "E-Mail senden"
+    },
+    "bugReportSubject": "TemplateRN - Fehlerbericht",
+    "subjectLabel": "Betreff",
+    "deviceInfo": {
+      "heading": "Geräteinformationen",
+      "device": "Gerät",
+      "os": "OS",
+      "app": "App",
+      "unknown": "Unbekannt"
+    },
+    "mailFallbackTitle": "E-Mail-App konnte nicht geöffnet werden",
+    "emailFallbackMessage": "support@example.com wurde in die Zwischenablage kopiert. Sie können die Adresse in jede E-Mail-App einfügen.",
+    "bugReportFallbackMessage": "Die Support-Adresse und der Fehlerberichtsentwurf wurden in die Zwischenablage kopiert. Sie können ihn in jede E-Mail-App einfügen.",
+    "mailFallbackCopyFailedMessage": "Es ist keine E-Mail-App verfügbar und auch das Kopieren in die Zwischenablage ist fehlgeschlagen."
+  },
+  "drawer": {
+    "home": "Startseite"
+  },
+  "appName": "TemplateRN",
+  "homeScreen": {
+    "title": "Willkommen",
+    "subtitleLoggedIn": "Sie sind angemeldet. Beginnen Sie, Ihre App auf Basis dieser Vorlage zu entwickeln.",
+    "subtitleLoggedOut": "Melden Sie sich an, um zu beginnen, oder entwickeln Sie Ihre App auf Basis dieser Vorlage."
+  }
+}

@@ -1,0 +1,89 @@
+import {
+  AuthCallbackResult,
+  parseAuthCallbackFromUrl,
+} from "@/utils/parseSessionFromUrl";
+import { FRONTEND_URL } from "@/utils/env";
+import * as Linking from "expo-linking";
+import * as WebBrowser from "expo-web-browser";
+import { Platform } from "react-native";
+
+type AuthFlowType = "login" | "register";
+
+type AuthSessionConfig = {
+  authUrl: string;
+  redirectUrl: string;
+  useEmbeddedBrowserFallback: boolean;
+};
+
+export type StartAuthSessionResult =
+  | {
+      type: "completed";
+      authCallback: AuthCallbackResult;
+    }
+  | {
+      type: "opened-in-browser";
+    }
+  | {
+      type: "cancelled";
+    }
+  | {
+      type: "invalid-callback";
+    };
+
+function buildAuthSessionConfig(
+  type: AuthFlowType,
+  frontendUrlMissingMessage: string,
+): AuthSessionConfig {
+  const frontendUrl = FRONTEND_URL;
+
+  if (!frontendUrl) {
+    throw new Error(frontendUrlMissingMessage);
+  }
+
+  const redirectUrl = Linking.createURL("/auth/callback");
+  const authUrl = new URL(`/auth/${type}`, frontendUrl);
+
+  authUrl.searchParams.set("from", "app");
+  authUrl.searchParams.set("redirect_uri", redirectUrl);
+
+  return {
+    authUrl: authUrl.toString(),
+    redirectUrl,
+    useEmbeddedBrowserFallback:
+      Platform.OS === "ios" && authUrl.protocol !== "https:",
+  };
+}
+
+export async function startAuthSession(
+  type: AuthFlowType,
+  frontendUrlMissingMessage: string,
+): Promise<StartAuthSessionResult> {
+  const { authUrl, redirectUrl, useEmbeddedBrowserFallback } =
+    buildAuthSessionConfig(type, frontendUrlMissingMessage);
+
+  if (useEmbeddedBrowserFallback) {
+    await WebBrowser.openBrowserAsync(authUrl);
+    return { type: "opened-in-browser" };
+  }
+
+  const result = await WebBrowser.openAuthSessionAsync(authUrl, redirectUrl);
+
+  if (result.type !== "success" || !result.url) {
+    return { type: "cancelled" };
+  }
+
+  // The callback URL arrives directly from the in-app browser session we
+  // opened, so it is a trusted source: the reactivate intent is honored here.
+  const authCallback = parseAuthCallbackFromUrl(result.url, {
+    trustIntent: true,
+  });
+
+  if (!authCallback) {
+    return { type: "invalid-callback" };
+  }
+
+  return {
+    type: "completed",
+    authCallback,
+  };
+}
